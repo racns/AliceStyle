@@ -21,7 +21,7 @@ AliceStyle
 ### 起始
 
 最初的美化教程  http://racns.com/index.php/211.html  
-
+AliceStyle插件使用教程  http://racns.com/index.php/374.html
 
 
 ### 激活
@@ -41,15 +41,21 @@ AliceStyle
 
 #### 可设置项
 
-1. 选择主题动态背景风格
+1. 选择主题动态背景风格-提供了13个动态背景可选，总有一款适合你
 
-- Kaleidoscope.js
-- MagnetLine.js
-- PinkBubble.js
-- Raindrop.js
-- RiseBalloon.js
-- RiseLove.js
-- SodaWater.js
+- HackereMpire-01
+- HackereMpire
+- Kaleidoscope
+- MagnetLine
+- PinkBubble
+- Rainbow
+- Raindrop
+- RiseBalloon
+- RiseLove
+- ScienceLine
+- SodaWater
+- StarrySky
+- wave
 
 
 ### 后记
