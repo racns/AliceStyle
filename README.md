@@ -41,7 +41,7 @@ AliceStyle插件使用教程  http://racns.com/index.php/374.html
 
 #### 可设置项
 
-1. 选择主题动态背景风格-提供了13个动态背景可选，总有一款适合你
+选择主题动态背景风格-提供了13个动态背景可选，总有一款适合你
 
 - HackereMpire-01
 - HackereMpire
