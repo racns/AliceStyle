@@ -8,8 +8,8 @@ if (!defined('__TYPECHO_ROOT_DIR__')) {
  *
  * @package AliceStyle
  * @author racns
- * @version 2.3.6
- * @update: 2019-11-11
+ * @version 2.3.7
+ * @update: 2019-11-27
  * @link //racns.com
  */
 class AliceStyle_Plugin implements Typecho_Plugin_Interface
