@@ -56,7 +56,7 @@ class AliceStyle_Plugin implements Typecho_Plugin_Interface
     {
 
         //定义插件当前版本号
-        $client_version = 20191117;
+        $client_version = 20191127;
         //获取服务器上面的版本号
         $data = file_get_contents('http://racns.com/usr/program/api/Server/AliceStyle/');
         /*获取json数据*/
