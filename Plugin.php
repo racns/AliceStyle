@@ -85,7 +85,7 @@ class AliceStyle_Plugin implements Typecho_Plugin_Interface
         //设置代码风格样式
         $JSstyles = array_map('basename', glob(dirname(__FILE__) . '/static/js/bg_file/*.js'));
         $JSstyles = array_combine($JSstyles, $JSstyles);
-        $name = new Typecho_Widget_Helper_Form_Element_Select('code_js', $JSstyles, 'RiseBalloon.js',
+        $name = new Typecho_Widget_Helper_Form_Element_Select('code_js', $JSstyles, '8-RiseBalloon.js',
             _t('动态背景'), _t('默认背景：PinkBubble，如不需要动态背景，请选择"Null.js"'));
         $form->addInput($name->addRule('enum', _t('必须选择背景'), $JSstyles));
 
