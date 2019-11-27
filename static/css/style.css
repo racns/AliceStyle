@@ -1,0 +1,142 @@
+.container{
+	margin-top:20px;
+	height: 3vh;
+}
+.inner {
+	background: #ff7800;
+	padding: 1em;
+	border-radius: 10px;
+	width: 60%;
+	right: -40%;
+	top: -3vh;
+	font-weight: bold;
+	clip-path: circle(5% at 95% 25%);
+	transition: all .5s ease-in-out;
+	cursor: pointer;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, .3);
+	position: relative;
+	z-index: 10;
+}
+.inner:hover {
+	clip-path: circle(75%);
+	background: #00B6FF;
+}
+.inner h1 {
+	color: white;
+	margin: 0;
+	border-bottom: 1px solid hsl(0, 0%, 100%);
+}
+.inner p {
+	margin: 8px;
+	color: white;
+	font-size: .8rem;
+}
+.inner p a{
+	color: white;
+}
+.inner span {
+	right: -97%;
+	top: 30px;
+	color: white;
+	font-weight: bold;
+	transition: color .5s;
+	position: relative;
+	margin-right: 0.5em;
+	line-height:1rem;
+	font-size:24px;
+}
+.inner:hover span {
+	color: rgba(255, 255, 255, 0);
+}
+
+
+select {
+	border: 2px solid #8a85ff;
+    width: 50%;
+    border-radius: 5000px;
+    padding: 2px;
+    color: #7b88ff;
+}
+
+.typecho-option {
+	width: 40%;
+    height: 15vh;
+	padding: 20px;
+	float: left;
+	margin: 2%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,.2);
+}
+
+.typecho-option label.typecho-label {
+	font-size: 1.5em;
+	color: #9e5df3;
+	padding: 10px 0;
+	text-align: center;
+    border-bottom: 1px solid hsl(243, 100%, 76%);
+}
+
+.typecho-option .description {
+    color: #7a88ff;
+}
+.typecho-option-submit li {
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    margin-top: 10%;
+}
+.primary {
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px){
+	.inner{
+		width: 90%;
+		top: auto;
+	    left: auto;
+	    right: auto;
+	}
+	.inner span {
+		right: -100%;
+    	top: 50px;
+		margin-right: -0.3em;
+		line-height: unset;
+	}
+	.typecho-option {
+	    width: 85%;
+	    height: auto;
+	    padding: 20px;
+	}
+	select {
+	    width: 70%;
+	}
+	.typecho-option-submit li {
+		width: 100%;
+		margin-top: 0;
+	}
+}
+
+input[type=text], input[type=password], input[type=email], textarea {
+    border: 1px solid #7b88ff;
+    border-radius: 30px;
+}
+
+
+
+@media (min-width: 768px){
+	.col-tb-offset-2 {
+    	margin-left: 0;
+	}
+}
+@media (min-width: 768px){
+	.col-tb-8 {
+    	width: 100%;
+	}
+}
+
+
+ 
+ 
+

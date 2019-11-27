@@ -1,0 +1,51 @@
+/*
+ * 主题盒子优化
+ * 本项修改的是主题盒子模型效果。将以下代码添加至后台主题设置 自定义CSS
+ */
+
+.link-main{padding:50px 0 50px 20px;text-align:center}
+.link-main h3{margin-top:0}
+.link-main .item{display:inline-block;letter-spacing:0;margin-right:20px;margin-bottom:20px;width:289px;height:240px;font-size:14px;overflow:hidden;border-radius:5px;background:rgba(255,255,255,.35);border:1px solid #e1e8ed;transition:background .2s}
+.link-main .link-bg{position:relative;height:90px;padding:0 1em;background-color:#777}
+.link-main .link-bg .bg:before{display:block;content:"";position:absolute;left:0;height:100%;width:100%;background:rgba(0,0,0,.5)}
+.link-main .link-bg .link-avatar{position:absolute;bottom:-50px;border:4px solid #fff;border-radius:100%;background-color:#fff;box-shadow:0 0 5px rgba(0,0,0,.5)}
+.link-main .link-bg .link-avatar img{border-radius:100%}
+.link-main .avatar{display:block;object-fit:cover}
+.link-main .bg,.link-main .link-bg{background-repeat:no-repeat;background-position:center;background-size:cover;display:block}
+.link-main .bg{position:absolute;top:0;bottom:0;left:0;right:0;filter:blur(1.5px);background-color:#fff}
+.link-main .meta{padding:.9em 1em;text-align:right}
+.link-main .info{color:#525766;padding:0 1em 1em}
+.link-main .info .name{font-weight:600;font-size:16px}
+@media screen and(max-width:330px){.link-main{padding:50px 0 50px 0}.link-main .item{margin-right:0}}
+.link-main .item:hover{background:rgba(255,255,255,1)}
+.link-main .item:hover .bg{filter:blur(.1px)}
+#comments pre code{display:inline}
+.wrapper-md>#comments{border:solid 1px #fff;padding:10px 30px 20px 30px}
+.hideContent{background-color:transparent;padding:10px 0}
+.agent{display:inline-block;margin-left:5px;padding:0 3px;border-radius:2px;color:#58666e;font-size:12px;opacity:.8}
+img[mw400]{max-width:400px!important;width:100%}
+.mw400{max-width:400px}
+@media screen and (min-width:1200px){.sticky{position:absolute;top:10px;left:15px}
+.panel .item-thumb{height:300px}
+#post-panel .blog-post{position:relative}
+#post-panel .panel{overflow:hidden}
+#post-panel .panel .post-meta{position:relative;margin-top:-300px;height:300px;padding-top:133px!important;padding-bottom:0!important;background-color:rgba(0,0,0,.3);color:#fff!important;transition:all .3s}
+#post-panel .panel .post-meta,#post-panel .panel-small .post-meta{border-radius:5px}
+#post-panel .panel .post-meta *,#post-panel .panel-small .post-meta *{color:#fff!important}
+#post-panel .panel .post-meta>h2,#post-panel .panel-small .post-meta>h2{text-align:center;text-shadow:0 0 3px #fff}
+#post-panel .panel .post-meta>div,#post-panel .panel .post-meta>p,#post-panel .panel-small .post-meta>div,#post-panel .panel-small .post-meta>p{transition:all .3s;transform:translateY(-10px);opacity:0}
+#post-panel .panel .post-meta>.text-muted,#post-panel .panel-small .post-meta>.text-muted{position:absolute;bottom:20px}
+#post-panel .panel .post-meta>.line{position:absolute;bottom:40px;width:740px}
+#post-panel .panel-small .post-meta>.line{position:absolute;bottom:40px;width:350px}
+#post-panel .panel .post-meta>.summary{position:absolute;bottom:60px;width:740px}
+#post-panel .panel-small .post-meta>.summary{position:absolute;bottom:60px;width:350px}
+#post-panel .panel-small{display:inline-block;height:300px;width:calc(50% - 10px);margin-right:20px}
+#post-panel .panel-small:nth-child(2n){margin-right:0}
+#post-panel .panel-small .index-img-small,#post-panel .panel-small .index-img-small .item-thumb-small{height:100%;width:100%}
+#post-panel .panel-small .post-meta{position:absolute;height:300px;width:calc(50% - 10px);padding:133px 20px 0 20px!important;background-color:rgba(0,0,0,.3);color:#fff!important;transition:all .3s}
+#post-panel .panel-small:hover .post-meta,#post-panel .panel:hover .post-meta{background-color:rgba(0,0,0,.6)}
+#post-panel .panel-small:hover .post-meta>div,#post-panel .panel-small:hover .post-meta>p,#post-panel .panel:hover .post-meta>div,#post-panel .panel:hover .post-meta>p{opacity:1;transform:translateY(0)}
+#post-panel .panel-small:hover .post-meta,#post-panel .panel:hover .post-meta{padding-top:80px!important}
+#post-panel .ahover{display:block;position:absolute;top:0;left:0;right:0;bottom:0}
+.blog-post>.panel-small:hover .index-post-img-small,.blog-post>.panel:hover .index-post-img{filter:blur(3px)}
+}

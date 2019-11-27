@@ -1,0 +1,150 @@
+.btn-toolbar-info > i {
+	color:white;
+}
+.btn-toolbar {
+	background:#f6f6f6;
+	width:120px;
+	height:40px;
+	line-height: 40px;
+	font-weight: bold;
+	text-align:center;
+	border-radius:6px;
+	display:block;
+	transition:none;
+}
+.btn-toolbar > i {
+	color:#02baf2;
+	font-size:1em;
+}
+.btn-toolbar:hover {
+	background:#02baf2;
+	cursor:pointer;
+}
+.btn-toolbar:hover > i {
+	color:white;
+}
+.hidden {
+	display:none;
+}
+.tool-container.tool-top,.tool-container.tool-bottom {
+	height:40px;
+	border-bottom:0px solid #beb8b8;
+}
+.tool-container.tool-top .tool-item,.tool-container.tool-bottom .tool-item {
+	float:left;
+	border-right:0;
+	border-left:0;
+}
+.tool-container.tool-top .arrow {
+	border-color:#5e696d transparent transparent;
+	left:50%;
+	bottom:-14px;
+	margin-left:-7px;
+}
+.animate-standard {
+	-webkit-animation:standardAnimate 0.3s 1 ease;
+}
+.toolbar-info {
+	background-color:#e96300;
+}
+.toolbar-info.tool-top .arrow {
+	border-color:#e96300 transparent transparent;
+}
+.toolbar-info.tool-bottom .arrow {
+	border-color:transparent transparent #e96300;
+}
+.toolbar-info.tool-left .arrow {
+	border-color:transparent transparent transparent #e96300;
+}
+.toolbar-info.tool-right .arrow {
+	border-color:transparent #e96300 transparent transparent;
+}
+.toolbar-info .tool-item > .fa {
+	color:white;
+}
+.toolbar-info .tool-item.selected,.toolbar-info .tool-item:hover {
+	background:#f58410;
+	color:white;
+}
+.tool-container {
+	background-color:#5e696d;
+	background-size:100% 100%;
+	border-radius:6px;
+	position:absolute;
+}
+.tool-container .arrow {
+	width:0;
+	height:0;
+	position:absolute;
+	border-width:7px;
+	border-style:solid;
+}
+.tool-container.tool-bottom .arrow {
+	border-color:transparent transparent #5e696d;
+	left:50%;
+	top:-14px;
+	margin-left:-7px;
+}
+.tool-container.tool-left .arrow {
+	border-color:transparent transparent transparent #5e696d;
+	top:50%;
+	right:-14px;
+	margin-top:-7px;
+}
+.tool-container.tool-right .arrow {
+	border-color:transparent #5e696d transparent transparent;
+	top:50%;
+	left:-14px;
+	margin-top:-7px;
+}
+.tool-item {
+	height:100%;
+	display:block;
+	width:20px;
+	height:20px;
+	text-align:center;
+	padding:10px;
+	transition:none;
+}
+.tool-item > .fa {
+	color:#b2c6cd;
+}
+.tool-item.selected,.tool-item:hover {
+	background:#02baf2;
+}
+.tool-item.selected > .fa,.tool-item:hover > .fa {
+	color:white;
+}
+@-webkit-keyframes standardAnimate {
+	from {
+	transform:translateY(20px);
+	opacity:0;
+}
+to {
+	transform:translateY(0px);
+	opacity:1;
+}
+}
+.example section.left,.pull-left {
+	float:left;
+}
+.clear {
+	display:none;
+	clear:both;
+}
+#set-03-options {
+	display:none;
+}
+section.btn-set-03 {
+	position:fixed;
+	top:5px;
+	right:205px;
+}
+
+@media (max-width: 600px){
+	section.btn-set-03 {
+    	right: 180px;
+	}
+}
+
+

@@ -1,0 +1,8 @@
+.sidebar_wo{position:fixed;line-height:0;bottom:0;z-index:1000}
+#leimu{left:0;-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out;-webkit-transform:translate(-7px,7px);-ms-transform:translate(-7px,7px);transform:translate(-7px,7px)}
+#lamu{-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out;-webkit-transform:translate(7px,7px);-ms-transform:translate(7px,7px);transform:translate(7px,7px);right:0}
+#leimu:hover{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0)}
+#lamu:hover{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0)}
+#updown img{cursor:pointer}
+@media only screen and (max-width:1024px){.sidebar_wo{display:none}
+}
