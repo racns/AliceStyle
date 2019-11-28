@@ -1,0 +1,48 @@
+/*
+ * canvas动态背景
+ * 本项修复启用canvas动态背景后，左边菜单栏背景无法与主题背景颜色样式兼容问题。将以下代码添加至后台主题设置 自定义CSS
+ */
+@media (min-width: 768px){
+	.app-aside-fixed .aside-wrap{
+		opacity: 0.8;
+	}
+}
+
+
+/*
+ * 页面背景透明
+ * 本项修改的是主页和文章页面透明效果。将以下代码添加至后台主题设置 自定义CSS
+ */
+ #post-panel{background:rgba(241,243,244,.3)}
+.list-group-item{background-color:rgba(255,255,255,.6)}
+.bg-white{background-color:rgba(255,255,255,1)}
+.bg-light .lter,.bg-light.lter,.bg-info .dker,.bg-info.dker,.bg-info,.bg-black,.bg-dark,.bg-primary,.bg-info .dk,.bg-info.dk,.bg-success,.bg-danger,.bg-white-only,.alert-warning{opacity:.8}
+@media (max-width: 767px){.navbar-nav .open .dropdown-menu{background-color:rgba(255,255,255,.8)}
+.settings>.btn, .topButton>.btn, .tocify-mobile-panel>.btn{background-color:rgba(255,255,255,0.8)!important}
+aside#aside {opacity: 0.8;}
+.bg-light .lter, .bg-light.lter, .bg-info .dker, .bg-info.dker, .bg-info, .bg-black, .bg-dark, .bg-primary, .bg-info .dk, .bg-info.dk, .bg-success, .bg-danger, .bg-white-only, .alert-warning{opacity:0.98}	
+}
+@media (min-width: 768px){
+	.app.container.app-aside-folded .app-aside {
+	    opacity: 0.8;
+	}
+}
+@media (min-width: 1200px){
+	.app.container .app-aside, .app.container .app-header {
+	    opacity: 0.8;
+	}
+}
+@media (min-width: 992px){
+	.app.container .app-aside, .app.container .app-header {
+	    opacity: 0.8;
+	}
+}
+@media (min-width: 768px){
+	.app.container .app-aside, .app.container .app-header {
+	    opacity: 0.8;
+	}
+}
+
+
+
+
