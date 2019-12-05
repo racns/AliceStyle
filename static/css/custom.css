@@ -1,0 +1,239 @@
+/* 
+ * 前台页面美化
+ * 
+ * 作者：兔子	QQ：1211515059	交流群：878555202
+ * 版本：Ver-1.0	更新时间：2019-11-3
+ * 美化不易，请保留版权信息和作者联系方式，方便后期版本升级
+ * 
+ * 需要在 “后台” → “设置外观” → “开发者设置” → “自定义输出head 头部的HTML代码” 添加以下代码
+ * <!-- 自定义css样式 -->
+ * <link rel="stylesheet" type="text/css" href="//域名/usr/extend/custom.css">
+ *
+ */
+
+
+ /*导航栏白色风格*/
+.bg-dark {
+    background-color: #faf6f5!important;
+}
+.bg-dark .dk, .bg-dark.dk {
+    background-color: #faf6f5!important;
+}
+.bg-dark .text-lt {
+    color: #646565!important;
+}
+.bg-dark .nav .open>a {
+    background-color: #f0f2f3!important;
+}
+.bg-dark .nav>li.active>a, .bg-dark .nav>li:focus>a, .bg-dark .nav>li:hover>a {
+    color: #fff;
+    background-color: #c07cffab!important;
+}
+.bg-dark .nav>li>a:focus, .bg-dark .nav>li>a:hover{
+    background-color: #c07cffab!important;
+}
+
+
+/*
+ * 首页文章列表获取焦点放大
+ * 功能：将鼠标放到首页列表后使其放大。将以下代码添加至后台主题设置 自定义CSS
+ */
+.panel{
+    cursor: pointer;
+    transition: all 0.6s;  
+}
+.blog-post .panel:not(article):hover{
+	transform: translateY(-10px);
+}
+.panel-small{
+    cursor: pointer;  
+    transition: all 0.6s;
+}
+.panel-small:hover{
+    transform: scale(1.05);
+}
+
+
+/*
+ * 首页头像自动旋转
+ * 将鼠标放至头像后使其转动并放大。将以下代码添加至后台主题设置 自定义CSS
+ */
+.thumb-lg{
+    width:96px;
+}
+.avatar{
+    -webkit-transition: 0.4s;
+    -webkit-transition: -webkit-transform 0.4s ease-out;
+    transition: transform 0.4s ease-out;
+    -moz-transition: -moz-transform 0.4s ease-out; 
+}
+.avatar:hover{
+    transform: rotateZ(360deg);
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+}
+#aside-user span.avatar{
+    animation-timing-function:cubic-bezier(0,0,.07,1)!important;
+}
+#aside-user span.avatar:hover{
+    transform:rotate(360deg) scale(1.2);
+    border-width:5px;
+    animation:avatar .5s
+}
+
+
+/*
+ * 首页文章版式阴影化
+ * 本项修改的是首页文章版式，包括图片使其四周加上一层绚丽的阴影。将以下代码添加至后台主题设置 自定义CSS
+ */
+.panel{
+    -moz-box-shadow: 0 8px 10px rgba(255, 112, 173, 0.35);
+}
+.panel:hover{
+    box-shadow: 0 8px 10px rgba(255, 112, 173, 0.35);
+    -moz-box-shadow: 0 8px 10px rgba(255, 112, 173, 0.35);
+}
+.panel-small{
+    box-shadow: 0 8px 10px rgba(255, 112, 173, 0.35);
+    -moz-box-shadow: 0 8px 10px rgba(255, 112, 173, 0.35);
+}
+.panel-small:hover{
+    box-shadow: 0 8px 10px rgba(255, 112, 173, 0.35);
+    -moz-box-shadow: 0 8px 10px rgba(255, 112, 173, 0.35);
+}
+/* #如果也想使盒子四周也有阴影，加上以下代码 */
+.app.container {
+    box-shadow: 0 0 30px rgba(255, 112, 173, 0.35);
+}
+.index-post-img , .entry-thumbnail{
+	overflow: hidden;
+}
+
+
+/*
+ * 首页文章图片获取焦点放大
+ * 本项修改的是首页文章图片，将鼠标放到首页头图后使其放大。将以下代码添加至后台主题设置 自定义CSS
+ */
+.item-thumb{
+    cursor: pointer;  
+    transition: all 0.6s;  
+}
+.item-thumb:hover{
+      transform: scale(1.05);  
+}
+.item-thumb-small{
+    cursor: pointer;  
+    transition: all 0.6s;
+}
+.item-thumb-small:hover{
+    transform: scale(1.05);
+}
+
+
+/*
+ * 顶部彩色跑马灯特效
+ * 本项修改的是顶部特效，顶部显示彩色跑马灯效果。将以下代码添加至后台主题设置 自定义CSS
+ * 需要在 “后台” → “设置外观” → “开发者设置” → “自定义输出head 头部的HTML代码” 添加代码<!-- 顶部跑马灯特效 --><div id="top-grrk"></div>
+ */
+#top-grrk{
+	background:url(../img/HorseRaceLamp.gif);
+	height:2px;
+	position:fixed;
+	width:100%;
+	Z-index:10000;
+}
+
+
+/*登录按钮*/
+a.ModifyPasswd {float: right;}
+/*.btn-block {
+    border-color: #fff!important;
+    background: #448bff linear-gradient(45deg,#448bff,#44e9ff)!important;
+    transition: all .2s ease;
+    border-radius: 30px!important;
+    box-shadow: 0 2px 6px rgba(0,0,0,.1);
+}
+.btn-block:hover {
+    color: #f4f4f4!important;
+    opacity: .8;
+    transition: all .2s ease;
+}
+.btn-block.active, .btn-block:active, .btn-block:focus, .btn-block:hover, .open .dropdown-toggle.btn-block{background: #448bff linear-gradient(45deg,#80aef9,#2cddf5);transition: all .2s ease;}*/
+
+
+/*
+ * 文章内插入标签卡
+ * 本项修改的是tabs居中效果。将以下代码添加至后台主题设置 自定义CSS
+ */
+.tab-container{
+	/*text-align: center;*/
+}
+.tab-container img{
+	width: initial;
+}
+.tab-pane a.light-link img {
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.35);
+}
+
+
+/*
+ * 文章内打赏处插入menhera酱求打赏图片
+ * 本项修改的是文章内打赏处图片。将以下代码添加至后台主题设置 自定义CSS
+ */
+.support-author{
+	background-repeat: round;
+	background-image: url(../img/MenheraSauce.png);
+}
+.article__reward-info{
+	color: #00a0ed!important;
+    font-weight: bold;
+}
+/*文章内打赏图标跳动*/
+.btn-pay {
+    animation: star 0.5s ease-in-out infinite alternate;
+}
+@keyframes star {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+
+/*
+ * 右侧列表导航栏图标颜色
+ * 本项修改的是右侧列表导航栏图标彩色效果。将以下代码添加至后台主题设置 自定义CSS
+ */
+.glyphicon-fire {
+    color: rgba(191,62,255,0.6)!important;
+}
+.nav-tabs-alt .glyphicon-comment {
+    color: rgb(174, 220, 174);
+}
+.glyphicon-transfer {
+    color: rgb(255, 179, 128)!important;
+}
+.nav-tabs-alt .nav-tabs>li.active>a{
+	border-bottom-color: #23b7e5!important;
+}
+.navs-slider-bar {
+    background-color: #058cff!important;
+}
+
+
+/*
+ * canvas动态背景
+ * 本项修复启用canvas动态背景后，左边菜单栏背景无法与主题背景颜色样式兼容问题。将以下代码添加至后台主题设置 自定义CSS
+ */
+@media (min-width: 768px){
+	.app-aside-fixed .aside-wrap{
+		background-color: inherit!important;
+	}
+}
+
+.modal-backdrop.in{display:none;}
+
+
