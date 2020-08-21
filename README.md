@@ -16,12 +16,12 @@ AliceStyle
  12、评论框打字粒子特效
  13、彩色标签特效
 
-最新更新时间：`2019-11-27`
+最新更新时间：`2020-8-17`
 
 ### 起始
 
-最初的美化教程  http://racns.com/index.php/211.html  
-AliceStyle插件使用教程  http://racns.com/index.php/374.html
+最初的美化教程  https://racns.com/211.html  
+AliceStyle插件使用教程  https://racns.com/374.html
 
 
 ### 激活
