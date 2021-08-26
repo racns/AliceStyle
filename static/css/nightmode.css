@@ -1,0 +1,337 @@
+/*
+ * 夜间模式
+ */
+ :root{
+    --NightModeOpacity: .5;
+} 
+.fix-padding #SW_NightMode svg.icon {
+    fill: #7f8080!important;
+}
+.fix-padding .icon-light-mode {
+	position: relative;
+	top: 3px;
+	color: #777;
+}
+.fix-padding .icon-dark-mode {
+	position: relative;
+	top: 3px;
+	color: #ffc107;
+}
+.fix-padding .bg-dark .nav>li>a:focus,.bg-dark .nav>li>a:hover {
+	background-color:rgba(0,0,0,.3)!important
+}
+html.night {
+    background: url() center center no-repeat no-repeat fixed #1d1f20!important;
+}
+.fix-padding section.widget.widget_tabs.clear {
+	color: #a0a0a0 !important;
+}
+.fix-padding  .navbar-header {
+	background-color: #1D1F20 !important;
+	color: #a0a0a0 !important;
+}
+.fix-padding li.list-group-item img, .fix-padding .alert.alert-warning.alert-block, .fix-padding ol.page-navigator, .fix-padding .dropdown.wrapper.vertical-wrapper img, .fix-padding div#Weather, .fix-padding .comment-form-comment.form-group, .fix-padding ol.comment-list li img, .fix-padding .hideContent, .fix-padding .comment-reply.m-t-sm, .fix-padding label.label.comment-author-logo.m-l-xs, .fix-padding footer#footer, .fix-padding div#author_info, .fix-padding .form-group, .fix-padding .support-author, .fix-padding .back-to-top.cd-top.faa-float.animated.cd-is-visible{
+    opacity: var(--NightModeOpacity);
+}
+.fix-padding  .dedediy-icon {
+	fill: #a0a0a0 !important;
+}
+.fix-padding  .navbar-collapse {
+	background-color: #1D1F20 !important;
+	color: #a0a0a0 !important;
+}
+.fix-padding  #easyLogin .wrapper,.fix-padding  #easyLogin .dropdown-menu {
+	background-color: #151617 !important;
+}
+.fix-padding  #easyLogin .dropdown-menu>li>a {
+	color: #a0a0a0 !important;
+}
+.fix-padding  .dropdown-menu>.active>a,.fix-padding  .dropdown-menu>.active>a:focus,.fix-padding  .dropdown-menu>.active>a:hover,.fix-padding  .dropdown-menu>li>a:focus,.fix-padding  .dropdown-menu>li>a:hover {
+	background-color: #1D1F20 !important;
+}
+.fix-padding .navi-wrap.scroll-y.scroll-hide {
+	background-color: #1D1F20 !important;
+	color: #a0a0a0 !important;
+}
+.fix-padding .bg-white .dk, .bg-white .dker,.fix-padding .bg-white .lt,.fix-padding .bg-white .lter{
+    background-color: #1D1F20 !important;
+}
+.fix-padding  .normal-shadow {
+	box-shadow: 2px 2px 3px transparent !important;
+}
+.fix-padding  #left_footer{
+	background-color: #1D1F20 !important;
+	color: #a0a0a0 !important;
+}
+.fix-padding  .bg-white .dk,.fix-padding .bg-white .dker,.fix-padding .bg-white .lt,.fix-padding .bg-white .lter {
+    background-color: transparent !important;
+}
+.fix-padding  .bg-light .dk,.fix-padding  .bg-light.dk {
+	background-color: transparent !important;
+}
+.fix-padding  .bg-white-only {
+    background-color: #1D1F20 !important;	
+}
+.fix-padding  .nav-tabs>li.active>a,.fix-padding  .nav-tabs>li.active>a:focus,.fix-padding  .nav-tabs>li.active>a:hover {
+	color: #a0a0a0 !important;	
+}
+.fix-padding  .navs-slider-bar {
+	background-color: #a0a0a0 !important;
+}
+.fix-padding  .panel,.fix-padding  .single-post,.fix-padding  .single-post.panel {
+	background-color: #1D1F20 !important;
+}
+.fix-padding  .dropdown-menu .panel {
+	border-radius: 0 !important;
+}
+.fix-padding  .bg-light.panel-footer,.fix-padding  .panel-footer {
+	background-color: #1D1F20 !important;
+}
+.fix-padding  .panel-footer {
+	border-top: 1px solid #333 !important;
+}
+.fix-padding  .panel.time-machine {
+	background-color: #1D1F20 !important
+}
+.fix-padding  .timeMachine .comment-parent {
+	border-bottom-color: transparent !important;
+}
+.fix-padding  .about.panel .list-group-item {
+	border-color: #333 !important;
+}
+.fix-padding  .i-switch i:before {
+	border:1px solid #19a9d5 !important;
+	background-color: #19a9d5 !important;
+}
+.fix-padding  .i-switch i:after {
+	background-color: #fff !important;
+}
+.fix-padding  .time-machine .arrow.left ,.fix-padding  .time-machine .arrow.left:after {
+	border-right-color: #151617 !important;
+}
+.fix-padding  .b-l {
+	border-left: 1px solid #333 !important;
+}
+.fix-padding  .b-b {
+    border-bottom: 1px solid #333 !important;
+}
+.fix-padding  .single-post.panel {
+	border: 1px solid #1D1F20 !important;
+}
+.fix-padding  .wrapper.bg-info {
+	background-color: #151617 !important;
+}
+.fix-padding  .arrow.top.arrow-info:after {
+	border-bottom-color: #151617 !important;
+}
+
+.fix-padding  #post-panel {
+	background-color: #151617 !important;	
+}
+.fix-padding .text-black {
+	color: #a0a0a0 !important;
+}
+.fix-padding .bg-light {
+	background-color: #1D1F20 !important;
+}
+.fix-padding .bg-light.panel-heading {
+	background-color: #f5f5f5 !important;
+}
+.fix-padding .app-content- {
+	background-color: #1D1F20 !important;	
+}
+.fix-padding .item-thumb-small {
+	opacity: .3 !important;
+}
+.fix-padding .breadcrumb {
+	background-color: #1D1F20 !important;
+}
+.fix-padding .list-group-item {
+	background-color: #151617 !important;
+}
+.fix-padding h5.widget-title.m-t-none.text-md,.fix-padding ul.list-group.box-shadow-wrap-normal{
+    color: #a0a0a0!important;
+}
+.fix-padding .text-second a {
+	color: #a0a0a0 !important;
+}
+.fix-padding .h5.text-second {
+	background-color: transparent !important;
+}
+.fix-padding #post-content blockquote {
+    border-left: 3px solid #a0a0a0!important;	
+	background-color: #151617 !important;	
+}
+.fix-padding .text-title {
+	color: #a0a0a0 !important;
+}
+.fix-padding .text-muted,.text-muted {
+	color: #555 !important;
+}
+.fix-padding .list-group-item .blog-info-icons svg path{
+    fill: #a0a0a0!important;
+}
+
+.fix-padding  #toc {
+	background-color: #151617 !important;
+}
+.fix-padding  .tocify .active {
+	background-color: #111 !important;
+}
+.fix-padding  .post-tags a,.fix-padding span.badge.pull-right {
+	background-color: #000 !important;
+	color: #555 !important;
+}
+.fix-padding  .light-link img {
+	opacity: .3 !important;
+}
+.fix-padding  #post-content button {
+	background-color: #151617 !important;
+}
+
+.fix-padding  #comment {
+	background-color: #111 !important;
+}
+.fix-padding  .secret_comment_textarea {
+	background: rgba(255,255,255, .8) !important;
+	border-color: rgba(255,255,255, .8) !important;
+	color:#000 !important;
+}
+.fix-padding  .form-control {
+	border-color: transparent !important;
+}
+
+.fix-padding  .post_tab .nav {
+	background: #1D1F20 !important;
+}
+.fix-padding  .tab-container .tab-content  {
+	background: #1D1F20 !important;
+}
+.fix-padding  .post_tab .nav-item.active .nav-link:before {
+	border-bottom-color: #a0a0a0 !important;
+}
+.fix-padding  .wrapper {
+	background: #1D1F20 !important;
+}
+.fix-padding  .list-group-sp .list-group-item {
+	background-color: #151617 !important;
+}
+.fix-padding  .pager li>a,  .pager li>span {
+	background-color: #1D1F20 !important;
+}
+.fix-padding  .book .comment-parent {
+	background-color: transparent;	
+}
+
+.fix-padding  .comment-parent {
+	border-bottom-color: rgba(29, 31, 32, .3) !important;
+}
+.fix-padding  .comment-children.son-pox {
+	border-top: 1px solid rgba(29, 31, 32, .9) !important;
+}
+.fix-padding  .mobile-lou {
+	color: #333 !important;
+}
+.fix-padding  .hideContent {
+	background-color: rgba(29, 31, 32, .3) !important;
+}
+.fix-padding  .click-parent{
+	background: -moz-linear-gradient(to bottom, rgba(29, 31, 32, 0) -20%, rgba(29, 31, 32, 1)) !important;
+    background: -webkit-linear-gradient(bottom, rgba(29, 31, 32, 0) -20%, rgba(29, 31, 32, 1)) !important;
+    background: linear-gradient(to bottom, rgba(29, 31, 32, 0) -20%, rgba(29, 31, 32, 1)) !important;
+}
+.fix-padding  .list-group-item .thumb-sm .img-square {
+	border: 2px solid transparent !important;
+}
+.fix-padding  .bg-white-opacity {
+	background-color: rgba(0, 0, 0, .3) !important;
+}
+.fix-padding  .about.panel,  .about.panel .list-group-item {
+	background-color: #151617 !important;
+}
+.fix-padding  .tag-list .breadcrumb .button {
+	color: #555 !important;
+}
+.fix-padding  .tag-list .breadcrumb .button.on {
+	border-bottom: 2px solid #a0a0a0 !important;
+	color: #a0a0a0 !important;
+}
+.fix-padding  .tags .item .tag {
+	background-color: #1D1F20 !important;
+}
+.fix-padding  .tags .item .tag .title,.fix-padding  .soft-list .item .content .title {
+	color: #a0a0a0 !important;
+}
+.fix-padding  .soft-list .item .content {
+	background-color: #1D1F20 !important;
+}
+.fix-padding  .soft-list .item .content .desc {
+	color: #555 !important;
+}
+.fix-padding  .albums .album-thumb .img-wrap,.fix-padding  .albums .image-thumb .img-wrap {
+	background-color: #1D1F20 !important;
+}
+.fix-padding  .album-thumb figcaption {
+	background: transparent !important;
+}
+.fix-padding  .templates .album-thumb figcaption a{
+    color: #a0a0a0 !important;
+}
+.fix-padding  .templates .album-thumb figcaption .meta-views {
+    color: #555 !important;
+}
+.fix-padding  .templates .album-thumb figcaption .meta-views span.meta-value a {
+    color: #555 !important;
+}
+.fix-padding  .albums .album-thumb img,.fix-padding  .albums .image-thumb img {
+	opacity: .5 !important;
+}
+.fix-padding aside.asideBar.col.w-md.bg-white-only.bg-auto.no-border-xs {
+	background-color: #151617 !important;
+}
+.fix-padding #post-content pre:before{
+	background: #040205!important;
+}
+.fix-padding #post-content pre{
+	background: #151617!important;
+}
+.fix-padding #post-content pre code{
+	color: white!important;
+}
+.fix-padding #bg_canvas,.fix-padding .bg_canvas,.fix-padding div#bg_canvas > canvas,.fix-padding #rainbow,.fix-padding #main-canvas{
+	background: #151617!important;
+}
+
+.fix-padding div#toc,.fix-padding #post-content h2::after {
+    box-shadow: none!important;
+}
+.fix-padding .collapse-panel .panel-heading {
+    background: #151617!important;
+}
+.fix-padding .tip.inlineBlock.info,.fix-padding .tip.inlineBlock.success,.fix-padding .tip.inlineBlock.warning,.fix-padding .tip.inlineBlock.share,.fix-padding .tip.inlineBlock.error {
+    background: #212324!important;
+}
+.fix-padding code{
+    background-color: #131313!important;
+}
+.fix-padding .nav>li>a:focus, .nav>li>a:hover {
+    background-color: rgba(30, 144, 255, .2)!important;
+}
+
+.fix-padding table th {
+    background: black!important;
+}
+.fix-padding table tr:nth-child(2n) {
+    background: #c0c0c0!important;
+}
+.fix-padding table tr {
+    background: #999da0!important;
+}
+.fix-padding a.label.badge {
+    background-color: #000!important;
+    color: #737475!important;
+}
+
+.fix-padding .navi ul.nav li a svg,.fix-padding .navi-wrap nav li i {
+    color: white!important;
+}
