@@ -47,11 +47,14 @@ if(!empty($TYPE)){
         
         $fs = fopen($file, "r");
         
-        while (!feof($fs)) {
-        
+        while(!feof($fs)){
+            
         	$line=trim(fgets($fs));
         	
-        	if ($line!='') array_push($pics, $line);
+        	if($line!=''){
+        	    
+        		array_push($pics, $line);
+        	}
         }
         
         // 从数组随机获取链接
@@ -64,11 +67,12 @@ if(!empty($TYPE)){
         
         // JSON返回
         case 'json':
-        
+            
         	header('Content-type:text/json');
         	die(json_encode(['pic'=>$pic]));
         
         default:
+            
         	die(header("Location: $pic"));
         }
     }
