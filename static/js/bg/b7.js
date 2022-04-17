@@ -6,13 +6,13 @@ function async_load() {
  
         i.border = "0";
  
-        // i.setAttribute("frameborder", "0", 0);
+        i.setAttribute("frameborder", "0", 0);
  
         i.width = "100px";
  
         i.height = "20px";
  
-        // document.getElementById("hub_iframe").appendChild(i);
+        document.getElementById("hub_iframe").appendChild(i);
  
     }
  

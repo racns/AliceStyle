@@ -3,7 +3,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) {
     exit;
 }
 // 定义版本号
-defined($Cver,'20201015');
+define($Cver,'20201015');
 
 // 插件设置模块
 include 'inc/form.min.php';
@@ -167,7 +167,7 @@ class AliceStyle_Plugin implements Typecho_Plugin_Interface{
     }
 
     /**
-     * 为header添加css文件
+     *为header添加css文件
      * @return void
      */
     public static function header(){
@@ -195,7 +195,7 @@ class AliceStyle_Plugin implements Typecho_Plugin_Interface{
     }
 
     /**
-     * 为footer添加js文件
+     *为footer添加js文件
      * @return void
      */
     public static function footer(){
@@ -227,7 +227,7 @@ class AliceStyle_Plugin implements Typecho_Plugin_Interface{
     }
     
     /**
-     * 为后台header添加css文件
+     *为后台header添加css文件
      * @return void
      */
     public static function A_Header(){
@@ -243,21 +243,13 @@ class AliceStyle_Plugin implements Typecho_Plugin_Interface{
     }
     
     /**
-     * 为后台footer添加js文件
+     *为后台footer添加js文件
      * @return void
      */
-    public static function A_Footer(){
+     public static function A_Footer(){
      	
      	// 后台美化
      	PluginsFooter::AliceStyleAdmin();
-    }
-     
-    /**
-     * 服务器状态信息
-     * 
-     */
-    public static function AS_SERVER(){
-        
-        // PluginsForm::SERVER();
-    }
+     }
+    
 }

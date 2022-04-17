@@ -172,37 +172,3 @@ function ClearCookie() {
         }
     }
 }
-
-//"2019/09/24"
-function getCurDate() {
-    return new Date().toJSON().substr(0,10).replace(/-/g, '/');
-}
-
-//"2019-09-24"
-function getCurDate() {
-    return new Date().toJSON().substr(0,10);
-}
-
-//"18:20:06"
-function getCurTime() {
-    return new Date().toTimeString().substr(0,8);
-}
-
-//"2019/09/24 18:21:48"
-function getCurDateTime(){
-   var d = new Date();
-   return d.toJSON().substr(0,10).replace(/-/g, '/') + ' ' + d.toTimeString().substr(0,8);
-}
-
-//"2019-09-24 18:23:11"
-function getCurDateTime(){
-   var d = new Date();
-   return d.toJSON().substr(0,10) + ' ' + d.toTimeString().substr(0,8);
-}
-
-
-
-
-
-
-
